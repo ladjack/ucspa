@@ -1,0 +1,37 @@
+{
+  "name": "ucspa",
+  "version": "1.0.0",
+  "description": "Provides a list of users, CRUD operations and a list of companies",
+  "main": "client/app.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "postinstall": "./node_modules/bower/bin/bower install",
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ladjack/ucspa.git"
+  },
+  "engines": {
+    "node": "8.9.0"
+  },
+  "keywords": [
+    "nodejs",
+    "angular",
+    "spa"
+  ],
+  "author": "ladjack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ladjack/ucspa/issues"
+  },
+  "homepage": "https://github.com/ladjack/ucspa#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-validator": "^4.3.0",
+    "moment": "^2.20.1",
+    "mysql2": "^1.5.1",
+    "sequelize": "^4.31.2"
+  }
+}
